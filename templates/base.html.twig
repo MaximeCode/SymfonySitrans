@@ -16,7 +16,7 @@
 
 <header>
     <div class="row bg-primary">
-        <div class="col-3">
+        <div class="col--3">
             <img src="{{ asset('img/logo.png') }}" alt="SITRANS" class="img-fluid">
         </div>
         <div class="col d-flex justify-content-center align-items-center text-white fs-3">VIVEZ L'EXPÉRIENCE</div>
@@ -48,6 +48,8 @@
         </nav>
     </div>
 </header>
+
+<h1 class="text-center my-5">{% block titlePage %}SITRANS{% endblock %}</h1>
 
 {% block body %}{% endblock %}
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
