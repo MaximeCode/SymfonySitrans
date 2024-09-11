@@ -1,0 +1,12 @@
+nav {
+    background-color: #ffed00;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-item:hover {
+    background-color: #0d6efd;
+    transition: background-color 0.5s ease-out;
+}
